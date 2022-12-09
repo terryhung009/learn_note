@@ -272,4 +272,84 @@ print<number>(999)
 
 print<string>("burce")
 
+class Print<T>{
+  data:T
+  constructor(d:T){
+    this.data = d
+  }
+}
+
+const p =new Print<number>(999)
+const p1= new Print<string>('burce')
+console.log('p',p)
+console.log('p1',p1)
+
+//=============== utility
+
+
+//Record
+
+interface CatInfo {
+  age: number;
+  breed: string;
+}
+ 
+type CatName = "miffy" | "boris" | "mordred" | "burce";//可用type控制可接受的物件名
+ 
+//key
+//value
+const cats: Record<CatName, CatInfo> = {
+  miffy: { age: 10, breed: "Persian" },
+  boris: { age: 5, breed: "Maine Coon" },
+  mordred: { age: 16, breed: "British Shorthair" },
+  burce: { age: 10, breed: "British Shorthair" },
+};
+
+console.log(cats)
+
+const obj1: Record<string, boolean> = {
+  name:true,
+  // age:123
+}
+
+
+//Pick
+
+// interface Todo {
+//   title: string;
+//   description: string;
+//   completed: boolean;
+// }
+ 
+// type TodoPreview = Pick<Todo, "title" | "completed">;
+ 
+// const todo: TodoPreview = {
+//   title: "Clean room",
+//   completed: false,
+//   // description: string;//會報錯
+// };
+
+//Omit
+interface Todo {
+  title: string;
+  description: string;
+  completed: boolean;
+  createdAt: number;
+}
+ 
+type TodoPreview = Omit<Todo, "description">;
+ 
+const todo: TodoPreview = {
+  title: "Clean room",
+  completed: false,
+  createdAt: 1615544252770,
+};
+
+
+
+
+
+
+
+
 
