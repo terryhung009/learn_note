@@ -1,0 +1,18 @@
+{
+    "name": "terry/15_autoloading",
+    "autoload": {
+        "psr-4": {
+            "app\\":"./app"
+            
+        }
+    },
+    "authors": [
+        {
+            "name": "dannyHung",
+            "email": "khc741213@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}

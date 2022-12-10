@@ -1,0 +1,15 @@
+{
+    "name": "terry/03_good",
+    "autoload": {
+        "psr-4": {
+            "app\\": "./"
+        }
+    },
+    "authors": [
+        {
+            "name": "dannyHung",
+            "email": "khc741213@gmail.com"
+        }
+    ],
+    "require": {}
+}
