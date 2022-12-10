@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hide Business - Google Maps API demo - August - Let's Write</title>
+    <link rel="canonical" href="https://www.letswrite.tw/google-map-api-marker-custom/">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <style>
+      .container {
+        padding-top: 30px;
+        padding-bottom: 30px;
+      }
+      #map {
+        background: #CCC;
+      }
+      .fixed-bottom {
+        position: fixed;
+        left: 16px;
+        bottom: 0;
+        max-width: 320px;
+      }
+    </style>
+    
+    <link rel="shortcut icon" href="https://letswritetw.github.io/letswritetw/dist/img/logo_512.png"/>
+    <!-- Google Tag Manager-->
+    <script>
+      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+      })(window,document,'script','dataLayer','GTM-PGQ9WQT');
+    </script>
+  </head>
+  <body>
+
+    <!-- Google Tag Manager (noscript)-->
+    <noscript>
+      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PGQ9WQT" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+    </noscript>
+
+    <div id="app" class="container">
+
+      <div class="row">
+        <div class="col">
+          <div id="map" class="embed-responsive embed-responsive-16by9"></div>
+        </div>
+      </div>
+
+      <hr>
+
+      <div class="row">
+        <div class="co">
+          <h5 class="d-inline-block">隱藏商家：</h5>
+          <div class="btn-group btn-group-toggle" data-toggle="buttons">
+            <label class="btn btn-info" :class="{ active: hideBusiness == 'hide' }">
+              <input type="radio" v-model="hideBusiness" value="hide"> 隱藏
+            </label>
+            <label class="btn btn-info" :class="{ active: hideBusiness == 'show' }">
+              <input type="radio" v-model="hideBusiness" value="show"> 顯示
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="row fixed-bottom">
+        <div class="col">
+          <div class="alert alert-info" role="alert">
+            Let's Write 筆記文：<br/>
+            <a href="https://letswrite.tw/google-map-api-marker-custom/" target="_blank">Google Maps API學習筆記-1</a>
+          </div>
+        </div>
+      </div>
+    
+    </div>
+    
+    <!-- 將 YOUR_API_KEY 替換成你的 API Key 即可 -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/2.6.10/vue.min.js"></script>
+
+    <!-- map -->
+    <script>
+      const googleMap = new Vue({
+        el: '#app',
+        data: {
+          map: null,
+          hideBusiness: 'show', // 隱藏商周：hide隱藏
+          hideStyle: [
+            {
+              featureType: 'poi.business',
+              stylers: [{
+                visibility: 'off'
+              }]
+            }
+          ]
+        },
+        methods: {
+          // init google map
+          initMap() {
+            
+            // 預設顯示的地點：台北市政府親子劇場
+            let location = {
+              lat: 25.0374865, // 經度
+              lng: 121.5647688 // 緯度
+            };
+            
+            // 建立地圖
+            this.map = new google.maps.Map(document.getElementById('map'), {
+              center: location,
+              zoom: 16,
+              mapTypeId: 'terrain'
+            });
+
+            // 放置多個marker
+            fetch('./map.geojson')
+              .then(results => results.json())
+              .then(result => {
+                this.features = result.features;
+                Array.prototype.forEach.call(this.features, r => {
+                  let latLng = new google.maps.LatLng(r.geometry.coordinates[0], r.geometry.coordinates[1]);
+                  let marker = new google.maps.Marker({
+                    position: latLng,
+                    map: this.map
+                  });
+                });
+
+            });
+
+          }
+        },
+        created() {
+          window.addEventListener('load', () => {
+            this.initMap();
+          });
+        },
+        watch: {
+          // hideBusiness的值變動時，切換商家的隱藏/顯示
+          hideBusiness: function(val) {
+            if(val == 'hide') {
+              this.map.setOptions({
+                styles: this.hideStyle
+              });
+            }
+            else {
+              this.map.setOptions({
+                styles: null
+              });
+            }
+          }
+        }
+      });
+    </script>
+
+  </body>
+</html>
