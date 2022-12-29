@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>放大鏡</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="jquery-3.6.0.js"></script>
+    <script>
+        $(function () {
+            $("#small").mouseenter(function () {
+                $("#mark,#big").show()
+            }).mouseleave(function () {
+                $("#mark,#big").hide()
+
+            }).mousemove(function (ev) {
+                var l = ev.pageX - $(this).offset().left - 100;
+                var t = ev.pageY - $(this).offset().top - 100;
+                if (l <= 0) {
+                    l = 0;
+                }
+                if (l >= 400) {
+                    l = 400
+                }
+                if (t <= 0) {
+                    t = 0;
+                }
+                if (t >= 400) {
+                    t = 400
+                }
+                //改變遮罩層的位置
+                $("#mark").css({
+                    left: l,
+                    top: t,
+                })
+                //同時放大圖片的位置
+                $("#big img").css({
+                    left: -4 * l,
+                    top: -4 * t,
+                })
+
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <div id="small">
+        <img src="1.jpg" alt="">
+        <div id="mark"></div>
+    </div>
+    <div id="big">
+        <img src="1.jpg" alt="">
+    </div>
+
+</body>
+
+</html>

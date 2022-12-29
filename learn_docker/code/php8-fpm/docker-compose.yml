@@ -1,0 +1,40 @@
+version: "3"
+
+services:
+    web:
+        image: nginx:latest
+        container_name: nginx
+        ports:
+            - "81:81" # phpmyadmin             
+            - "2021:2021" # domain_tool_admin
+            - "2022:2022" # domain_tool_admin 
+        volumes:
+            # - ../work:/work
+            # - C:/MAMP/htdocs:/htdocs
+            # - C:/MAMP/htdocs/project2/web1:/var/www/html
+            # - C:/xampp/htdocs/jonwai/staging:/var/www/html
+            - C:/work/jonwai_laravel9:/var/www/html
+            - C:/xampp/phpMyAdmin:/phpmyadmin
+            - ./nginx/conf.d:/etc/nginx/conf.d
+            - ./nginx/logs:/var/log/nginx
+            # - ./nginx/ssl:/etc/nginx/ssl
+    php-fpm:
+        image: php8-fpm
+        # image: php8-fpm
+        container_name: php-fpm
+        volumes:
+            # - ../work:/work
+            # - C:/MAMP/htdocs:/htdocs
+            # - C:/MAMP/htdocs/project2/web1:/var/www/html
+            # - C:/xampp/htdocs/jonwai/staging:/var/www/html
+            - C:/work/jonwai_laravel9:/var/www/html
+            - C:/xampp/phpMyAdmin:/phpmyadmin
+    # grafana:
+    #     image: grafana/grafana-oss:7.5.10-ubuntu
+    #     container_name: grafana
+    #     ports:
+    #         - 4445:3000
+    #     environment:
+    #         - GF_LOG_MODE=console file
+    #     volumes:
+    #         - ./grafana/grafana.ini:/etc/grafana/grafana.ini
