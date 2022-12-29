@@ -5,6 +5,8 @@
 於ubuntu中輸入
 curl -s https://laravel.build/test-project | bash
 
+curl -s https://laravel.build/example-app | bash
+
 安裝好後，ubuntu中輸入
 ./vendor/bin/sail up -d
 
@@ -28,5 +30,7 @@ password:password
 使用vscode開啟
 
 code .
+
+Thank you! We hope you build something incredible. Dive in with: cd project1 && ./vendor/bin/sail up
 
 

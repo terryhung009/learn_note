@@ -1,0 +1,8 @@
+    //click function
+    var arrows = document.getElementsByClassName('arrow');
+    for (i=0;i<arrows.length;i++){
+        arrows[i].addEventListener('click',function(e){
+            e.preventDefault();
+            fullpage_api.moveSectionDown();
+        });
+    }

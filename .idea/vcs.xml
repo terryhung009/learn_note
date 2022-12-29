@@ -2,5 +2,17 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_bootstrap/start" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_docker/code/company" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_docker/code/mydocker/mynode" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_docker/code/php7-fpm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_docker/code/php8-fpm" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_jquery/jquery_crash_course_finish" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_laravel/code/laravel_meetup" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_laravel/code/laravel_meetup - gh-page" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_laravel/code/laravel_meetup - 課程開始" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_nodejs/koma" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_nodejs/nodejs-basic-1" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/learn_nodejs/nodejs_tutorial" vcs="Git" />
   </component>
 </project>

@@ -1,0 +1,15 @@
+D:\work\c#\console1\CSharp編程第一季\001-開始\bin\Debug\net6.0\001-開始.exe
+D:\work\c#\console1\CSharp編程第一季\001-開始\bin\Debug\net6.0\001-開始.deps.json
+D:\work\c#\console1\CSharp編程第一季\001-開始\bin\Debug\net6.0\001-開始.runtimeconfig.json
+D:\work\c#\console1\CSharp編程第一季\001-開始\bin\Debug\net6.0\001-開始.dll
+D:\work\c#\console1\CSharp編程第一季\001-開始\bin\Debug\net6.0\001-開始.pdb
+D:\work\c#\console1\CSharp編程第一季\001-開始\obj\Debug\net6.0\001-開始.csproj.AssemblyReference.cache
+D:\work\c#\console1\CSharp編程第一季\001-開始\obj\Debug\net6.0\001-開始.GeneratedMSBuildEditorConfig.editorconfig
+D:\work\c#\console1\CSharp編程第一季\001-開始\obj\Debug\net6.0\001-開始.AssemblyInfoInputs.cache
+D:\work\c#\console1\CSharp編程第一季\001-開始\obj\Debug\net6.0\001-開始.AssemblyInfo.cs
+D:\work\c#\console1\CSharp編程第一季\001-開始\obj\Debug\net6.0\001-開始.csproj.CoreCompileInputs.cache
+D:\work\c#\console1\CSharp編程第一季\001-開始\obj\Debug\net6.0\001-開始.dll
+D:\work\c#\console1\CSharp編程第一季\001-開始\obj\Debug\net6.0\refint\001-開始.dll
+D:\work\c#\console1\CSharp編程第一季\001-開始\obj\Debug\net6.0\001-開始.pdb
+D:\work\c#\console1\CSharp編程第一季\001-開始\obj\Debug\net6.0\001-開始.genruntimeconfig.cache
+D:\work\c#\console1\CSharp編程第一季\001-開始\obj\Debug\net6.0\ref\001-開始.dll
