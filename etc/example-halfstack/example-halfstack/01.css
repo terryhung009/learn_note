@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+  font-family: "微軟正黑體";
+}
+
+#title {
+  text-align: center;
+  font-size: 40px;
+  border: 20px inset #71949e;
+  background: #c9dacd;
+  padding: 15px;
+}
+
+.post {
+  text-align: center;
+  background: #cce8de;
+  padding: 30px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.post h2 {
+  font-size: 30px;
+  color: #333;
+}
+.post p {
+  margin: 0 auto;
+  font-size: 16px;
+  width: 50%;
+  line-height: 18px;
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=01.css.map */

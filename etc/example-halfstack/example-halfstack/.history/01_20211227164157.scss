@@ -1,0 +1,37 @@
+$title-bg: #c9dacd;
+$title-border: #71949e;
+$post-bg: #cce8de;
+
+body {
+  font-family: '微軟正黑體';
+}
+#title {
+  text-align: center;
+  font-size: 40px;
+  border: 20px inset $title-border;
+  background: $title-bg;
+  padding: 15px;
+}
+.post {
+  text-align: center;
+  background: $post-bg;
+  padding: 30px;
+  padding-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+
+  h2 {
+    font-size: 30px;
+    color: #333;
+  }
+
+  p {
+    margin: 0 auto;
+    font-size: 16px;
+    width: 50%;
+    line-height: 18px;
+    letter-spacing: 1px;
+  }  
+}
