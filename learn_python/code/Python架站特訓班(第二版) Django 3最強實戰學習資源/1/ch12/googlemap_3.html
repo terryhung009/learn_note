@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Google地圖</title>
+	<script async defer type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=你的API KEY&callback=loadGoogleMap"></script>
+	<script language="javascript">
+		google.maps.event.addDomListener(window, 'load', loadGoogleMap);  //啟動GoogleMap
+
+		function loadGoogleMap() {
+			var map = new google.maps.Map(document.getElementById('map_div'), {
+				zoom: 16,
+				center: new google.maps.LatLng(23.865008, 120.911559),
+				mapTypeId: google.maps.MapTypeId.ROADMAP,
+				zoomControl: true,
+				mapTypeControl: true,
+				scaleControl: true,
+				streetViewControl: true,
+			});
+
+			var marker = new google.maps.Marker({
+				position: new google.maps.LatLng(23.865008, 120.911559),
+				title: "日月潭水社",
+				animation: google.maps.Animation.DROP,
+				map: map,
+				draggable:true,
+			});
+			
+			street = marker.getMap().getStreetView();
+			street.setPosition(new google.maps.LatLng(23.865008, 120.911559));
+			street.setPov({
+				heading: 90,
+				zoom: 1,
+				pitch: 0,
+			});
+			street.setVisible(true);
+		}
+	</script>
+</head>
+<body>
+	<div id="map_div" style="width:500px; height:400px;"></div>
+</body>
+</html>

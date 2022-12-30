@@ -1,0 +1,29 @@
+pip install dj-database-url dj-static gunicorn
+
+
+pip freeze > requirements.txt
+
+
+heroku login
+
+git init
+
+heroku git:remote -a ehappyboard1
+
+heroku config:set DJANGO_SETTINGS_MODULE=board.prod_settings
+
+git add .
+
+git commit -am "init commit"
+
+git push heroku master
+
+
+
+
+
+
+
+
+
+
