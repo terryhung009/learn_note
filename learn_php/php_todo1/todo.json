@@ -1,0 +1,14 @@
+{
+    "call mom": {
+        "completed": false
+    },
+    "buy milk": {
+        "completed": false
+    },
+    "buy pants": {
+        "completed": false
+    },
+    "buy hat": {
+        "completed": false
+    }
+}
