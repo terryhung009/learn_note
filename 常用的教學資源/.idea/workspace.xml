@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b3e05941-34b0-449d-b07c-9e0ee1878e8b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227153452.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227153501.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227153555.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227153715.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227153736.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227154119.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227154438.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227154441.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227154546.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227155258.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227155327.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227155448.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227155450.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227160319.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227164153.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227164154.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/01_20211227164157.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/09_20211227170105.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/09_20211227170106.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/09_20211227170111.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/09_20211227170233.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/09_20211227170521.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/09_20211227170524.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/10_20211227170827.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/10_20211227170828.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/10_20211227170858.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/11_20211227171421.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/11_20211227171422.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/11_20211227171424.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/11_20211227171538.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/11_20211227171543.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/11_20211227171547.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/11_20211227171623.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/11_20211227171637.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/.history/11_20211227171758.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/01.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/01.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/01.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/01.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/09.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/10.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_html/example-halfstack/example-halfstack/11.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_javascript/狂神說/code/lesson02/3迭代器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_javascript/狂神說/code/lesson02/4定義函數.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_javascript/狂神說/筆記/img_10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_javascript/狂神說/筆記/img_11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_javascript/狂神說/筆記/img_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_javascript/狂神說/筆記/img_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/常用的教學資源.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java_road/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/.idea/roadmap.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/backend.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/roadmap1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/roadmap2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/roadmap3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/tibame筆記/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/tibame筆記/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/tibame筆記/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/tibame筆記/課程地圖.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/筆記.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/roadmap/軟體設計規格參考範本.pdf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vs code快速鍵/929wLDP.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vs code快速鍵/WNRXFVD.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/vs code快速鍵/faBPEM0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/徐庶老師/.idea/jpa-buddy.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/徐庶老師/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/徐庶老師/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/徐庶老師/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/徐庶老師/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/徐庶老師/.idea/徐庶老師.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/徐庶老師/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/狂神說/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/阿里巴巴開發手冊/Java开发手册（嵩山版）.pdf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/backend.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227153452.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227153501.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227153555.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227153715.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227153736.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227154119.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227154438.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227154441.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227154546.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227155258.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227155327.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227155448.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227155450.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227160319.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227164153.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227164154.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/01_20211227164157.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/09_20211227170105.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/09_20211227170106.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/09_20211227170111.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/09_20211227170233.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/09_20211227170521.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/09_20211227170524.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/10_20211227170827.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/10_20211227170828.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/10_20211227170858.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/11_20211227171421.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/11_20211227171422.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/11_20211227171424.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/11_20211227171538.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/11_20211227171543.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/11_20211227171547.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/11_20211227171623.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/11_20211227171637.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/.history/11_20211227171758.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/01.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/01.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/01.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/01.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/01.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/09.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/10.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/example-halfstack/example-halfstack/11.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/img.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/roadmap1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/roadmap2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/roadmap3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/筆記.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/筆記2.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../etc/軟體設計規格參考範本.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn_javascript/狂神說/筆記/筆記.md" beforeDir="false" afterPath="$PROJECT_DIR$/../learn_javascript/狂神說/筆記/筆記.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2JgBsONPcII15CiQEHahN5qAasW" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/work/learn_note/常用的教學資源&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3e05941-34b0-449d-b07c-9e0ee1878e8b" name="Changes" comment="" />
+      <created>1672490051785</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1672490051785</updated>
+      <workItem from="1672490052968" duration="1310000" />
+      <workItem from="1672493861288" duration="2586000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+</project>
