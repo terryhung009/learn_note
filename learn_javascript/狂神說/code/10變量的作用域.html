@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+        'use strict'
+
+        // function qj(){
+        //     var x =1;
+        //     x=x+1;
+        // }
+        // x= x+2;//Uncaught ReferenceError: x is not defined
+
+
+        // function qj(){
+        //     var x =1;
+        //     x=x+1;
+        // }
+        // function qj2(){
+        //     var x ='A';
+        //     x=x+1;
+        // }
+
+
+        // function qj(){
+        //     var x =1;
+        //
+        //     //內部函數可以訪問外部函數的成員，反之則不行
+        //     function qj2(){
+        //         var y = x + 1;
+        //         x=x+1;
+        //     }
+        //     var z = y +1;
+        // }
+
+
+        // function qj(){
+        //     var x =1;
+        //
+        //
+        //     function qj2(){
+        //         var x = 'A';
+        //         console.log('inner='+ x);
+        //     }
+        //     qj2();
+        //     console.log('outer='+x);
+        // }
+        // qj();
+
+
+        // function qj(){
+        //     var x = "x" + y;//未宣告變量y
+        //     console.log(x);
+        //     var y = 'y';
+        // }
+        //
+        // function qj2(){//等同於qj()
+        //     var y;
+        //     var x = "x" + y;
+        //     console.log(x);
+        //     var y = 'y';
+        // }
+
+
+        // function qj(){
+        //     var x = "x" + y;//未宣告變量y
+        //     console.log(x);
+        //     var y = 'y';
+        // }
+        //
+        // function qj2(){//等同於qj()
+        //     //把變量宣告提到最前面
+        //     // var x,y,z...;
+        //     var x = "x" + y;
+        //     console.log(x);
+        //     var y = 'y';
+        // }
+
+        // function qj2() {//等同於qj()
+        //     //把變量宣告提到最前面
+        //     var x = 1,
+        //         y = x + 1,
+        //         z,
+        //         i
+        //
+        //     //之後隨意用
+        //
+        //     x='a';
+        //
+        // }
+
+        //全局變量
+        // var x =1;
+        // function f(){
+        //     console.log(x);
+        // }
+        // f()
+        // console.log(x)
+
+
+        // //全局對象
+        // var x ='xxx';
+        // // alert(x);
+        // // alert(window.x);//默認所有的全局變量，都會自動綁定在window對象下。
+        // //alert也是綁訂在window下
+        // window.alert(x);
+        // window.alert(window.x);//默認所有的全局變量，都會自動綁定在window對象下。
+
+
+        // var x ='xxx';
+        // window.alert(x);
+        //
+        // var old_alert= window.alert;
+        //
+        // // old_alert(x);//成功
+        //
+        // window.alert = function (){
+        //
+        // }
+        // window.alert(123);//發現alert失效了
+        //
+        // //恢復
+        // window.alert = old_alert();
+        // window.alert(456);
+
+
+        // //唯一全局變量
+        // var KuangshenApp = {};
+        //
+        // //定義全局變量
+        // KuangshenApp.name = 'Kuangshen';
+        // KuangshenApp.add = function (a, b) {
+        //     return a + b;
+        // }
+
+
+        // //var有問題
+        // function app(){
+        //     for(var i = 0;i < 100;i++){
+        //         console.log(i)
+        //     }
+        //     console.log(i+1);//問題? i出了這個作用域還可以使用
+        // }
+
+        // //let
+        // function app(){
+        //     for(let i = 0;i < 100;i++){
+        //         console.log(i)
+        //     }
+        //     console.log(i+1);//問題? i出了這個作用域還可以使用
+        // }
+
+        // //const
+        // const PI = '3.14';//只讀變量
+        // console.log(PI);
+        // PI = '213';//可以改變這個值
+        // console.log(PI);//Uncaught TypeError: Assignment to constant variable.
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>
