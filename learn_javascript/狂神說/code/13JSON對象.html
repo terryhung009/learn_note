@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        //json
+        // var user = {
+        //     name:'qinjiang',
+        //     age:'3',
+        //     sex:'男'
+        // }
+
+        // console.log(user);
+
+        //對象轉化為json字符串
+        // var jsonUser = JSON.stringify(user);//'{"name":"qinjiang","age":"3","sex":"男"}'
+
+        //json字符串轉化為對象 參數為json字符串
+        // var obj = JSON.parse('{"name":"qinjiang","age":"3","sex":"男"}');
+
+
+        //原型對象
+        var Student = {
+            name:'qinjiang',
+            age:'3',
+            sex:'男',
+            run:function (){
+                console.log(this.name + " run...")
+            }
+        }
+
+        var ming = {
+            name:"ming"
+        }
+
+        //原型對象
+        //小明的原型 是 Student
+        ming.__proto__ = Student;
+
+        var Bird = {
+            fly:function (){
+                console.log(this.name + " fly...")
+            }
+        }
+
+        ming.__proto__ = Bird;
+
+
+
+
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>

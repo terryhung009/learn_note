@@ -5,7 +5,53 @@
     <title>Title</title>
 </head>
 <script>
-  
+    // //方法
+    // var kuangshen ={
+    //     name:'秦疆',
+    //     birth:2020,
+    //     //方法
+    //     age:function(){
+    //         //今年-出生的年
+    //         var now = new Date().getFullYear();
+    //         return now - this.birth
+    //
+    //
+    //     }
+    // }
+
+
+    // 方法
+    // function getAge(){
+    //     //今年-出生的年
+    //     var now = new Date().getFullYear();
+    //     return now - this.birth
+    // }
+    // var kuangshen ={
+    //     name:'秦疆',
+    //     birth:2020,
+    //     //方法
+    //     age:getAge
+    // }
+
+
+    //apply
+    function getAge(){
+        //今年-出生的年
+        var now = new Date().getFullYear();
+        return now - this.birth
+    }
+    var kuangshen ={
+        name:'秦疆',
+        birth:2020,
+        //方法
+        age:getAge
+    }
+    //kuangshen.age()  成功
+    //getAge()  NaN
+
+    var a = getAge.apply(kuangshen,[]);//this,指向了kuangshen,參數為空
+    console.log(a)
+
 </script>
 
 <body>

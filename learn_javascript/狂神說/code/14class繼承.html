@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script>
+
+        //早期
+        // function Student(name) {
+        //     this.name = name;
+        // }
+
+        //早期 : 如何給Student新增一個方法，使用原型鏈
+        // Student.prototype.hello=function (){
+        //     alert("hello")
+        // }
+
+        // //ES6
+        // //定義一個學生的類
+        // class Student{
+        //     constructor(name) {
+        //         this.name = name;
+        //     }
+        //     hello(){
+        //         alert("hello")
+        //     }
+        // }
+        //
+        // var ming = new Student("ming");
+        //
+        // console.log(ming.hello())
+        //
+        // var danny = new Student("danny");
+
+        //繼承
+        //定義一個學生的類
+        class Student{
+            constructor(name) {
+                this.name = name;
+            }
+            hello(){
+                alert("hello")
+            }
+        }
+        //繼承
+        class xiaoStudent extends Student{
+            constructor(name,grade) {
+                super(name);
+                this.grade = grade;
+            }
+            myGrade(){
+                alert('5年級')
+            }
+        }
+
+        var danny = new xiaoStudent("danny",5);
+
+        console.log(danny.myGrade());
+
+
+
+    </script>
+
+
+</head>
+<body>
+
+</body>
+</html>
