@@ -1,0 +1,8 @@
+SQLite 下載網頁
+https://www.sqlite.org/download.html
+
+SQLite browser下載網頁
+https://sqlitebrowser.org/dl/
+
+Code Gym 資料庫設計課程
+https://hahow.in/cr/database

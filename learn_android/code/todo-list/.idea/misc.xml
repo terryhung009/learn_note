@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/terry/Desktop/demo/todo-list/app/src/main/res/drawable/btn_background.xml" value="0.2453125" />
+        <entry key="..\:/Users/terry/Desktop/demo/todo-list/app/src/main/res/drawable/btn_border.xml" value="0.2453125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

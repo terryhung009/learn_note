@@ -1,0 +1,10 @@
+interface moveable{
+
+
+
+
+}
+
+fun main() {
+
+}

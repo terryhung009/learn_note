@@ -1,0 +1,5 @@
+General 數據資料
+https://stats.nba.com/players/traditional/?sort=PTS&dir=-1&Season=2018-19&SeasonType=Regular%20Season
+
+Shooting 數據資料
+https://stats.nba.com/players/shooting/?Season=2018-19&SeasonType=Regular%20Season&sort=Right%20Corner%203%20FG%20PCT&dir=1&DistanceRange=By%20Zone

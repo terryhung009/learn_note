@@ -1,0 +1,27 @@
+
+// 建立Table
+CREATE TABLE "person" (
+	"id"	INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
+	"name"	TEXT,
+	"weight"	REAL,
+	"height"	REAL,
+	"bmi"	REAL
+)
+
+// 新增資料
+insert into person (name, weight, height) values ('David', 70, 1.75);
+insert into person (name, weight, height) values ('Mary', 54, 1.65);
+insert into person (name, weight, height) values ('Cindy', 51, 1.58);
+
+// 搜尋
+select * from person where id = 2;
+select * from person where weight > 60;
+
+// 修改
+update person set weight=52
+where name = 'Cindy';
+
+
+// 刪除
+delete from person
+where name = 'Cindy';

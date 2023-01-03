@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/terry/AndroidStudioProjects/maskInfo/app/src/main/res/drawable/bg_amount_info.xml" value="0.12760416666666666" />
+        <entry key="..\:/Users/terry/AndroidStudioProjects/maskInfo/app/src/main/res/layout/activity_main.xml" value="0.26621847886098404" />
+        <entry key="..\:/Users/terry/AndroidStudioProjects/maskInfo/app/src/main/res/layout/activity_pharmacy_detail.xml" value="0.4033613316075515" />
+        <entry key="..\:/Users/terry/AndroidStudioProjects/maskInfo/app/src/main/res/layout/item_view.xml" value="0.4033613316075515" />
+        <entry key="..\:/Users/terry/Desktop/Android_ demo/maskinfo3/app/src/main/res/layout/home_fragment.xml" value="0.10898082744702321" />
+        <entry key="..\:/Users/terry/Desktop/android/maskInfo/app/src/main/res/layout/activity_intro.xml" value="0.264" />
+        <entry key="..\:/Users/terry/Desktop/android/maskInfo/app/src/main/res/layout/activity_main.xml" value="0.22063329928498468" />
+        <entry key="..\:/Users/terry/Desktop/android/maskInfo/app/src/main/res/layout/activity_map.xml" value="0.1" />
+        <entry key="..\:/Users/terry/Desktop/android/maskInfo/app/src/main/res/layout/activity_pharmacy_detail.xml" value="0.22063329928498468" />
+        <entry key="..\:/Users/terry/Desktop/android/maskInfo/app/src/main/res/layout/info_window.xml" value="0.1824074074074074" />
+        <entry key="..\:/Users/terry/Desktop/android/maskInfo/app/src/main/res/layout/item_view.xml" value="0.22063329928498468" />
+        <entry key="..\:/Users/terry/Desktop/android/maskinfo3/app/src/main/res/layout/activity_main.xml" value="0.34256055363321797" />
+        <entry key="..\:/Users/terry/Desktop/android/maskinfo3/app/src/main/res/layout/item_view.xml" value="0.225" />
+        <entry key="..\:/Users/terry/Desktop/demo/maskinfo3/app/src/main/res/layout/activity_main.xml" value="0.22063329928498468" />
+        <entry key="..\:/Users/terry/Desktop/demo/maskinfo3/app/src/main/res/layout/activity_pharmacy_detail.xml" value="0.264" />
+        <entry key="..\:/Users/terry/Desktop/demo/maskinfo3/app/src/main/res/layout/home_fragment.xml" value="0.22063329928498468" />
+        <entry key="..\:/Users/terry/Desktop/demo/maskinfo3/app/src/main/res/layout/item_view.xml" value="0.225" />
+        <entry key="..\:/Users/terry/Desktop/demo/maskinfo3/app/src/main/res/layout/map_fragment.xml" value="0.20833333333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

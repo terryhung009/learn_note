@@ -1,0 +1,60 @@
+CREATE TABLE "nba_general" (
+	"player_id"	INTEGER NOT NULL UNIQUE,
+	"player_name"	TEXT,
+	"gp"	NUMERIC,
+	"pts"	NUMERIC,
+	"fgm"	NUMERIC,
+	"fga"	NUMERIC,
+	"fg_per"	NUMERIC,
+	"pm3"	NUMERIC,
+	"pa3"	NUMERIC,
+	"p3_per"	NUMERIC,
+	PRIMARY KEY("player_id")
+)
+
+
+CREATE TABLE "nba_shooting" (
+	"player_id"	INTEGER NOT NULL UNIQUE,
+	"res_fgm"	NUMERIC,
+	"res_fga"	NUMERIC,
+	"res_fg_per"	NUMERIC,
+	"pai_fgm"	NUMERIC,
+	"pai_fga"	NUMERIC,
+	"pai_fg_per"	NUMERIC,
+	"mid_fgm"	NUMERIC,
+	"mid_fga"	NUMERIC,
+	"mid_fg_per"	NUMERIC,
+	"left3_fgm"	NUMERIC,
+	"left3_fga"	NUMERIC,
+	"left3_fg_per"	NUMERIC,
+	"right3_fgm"	NUMERIC,
+	"right3_fga"	NUMERIC,
+	"right3_fg_per"	NUMERIC,
+	"pt3_fgm"	NUMERIC,
+	"pt3_fga"	NUMERIC,
+	"pt3_fg_per"	NUMERIC,
+	PRIMARY KEY("player_id")
+)
+
+-------------------------------------------------------------
+
+### 中距離
+select g.player_id, g.player_name,g.fg_per,g.fga, s.mid_fg_per, s.mid_fga, round(mid_fga/fga,2) 'mid_fga_per' 
+from nba_general g, nba_shooting s
+where g.player_id = s.player_id
+and g.gp > 50
+and s.mid_fg_per > 0.36
+and s.mid_fga > 1
+order by mid_fga_per desc, s.mid_fg_per desc;
+
+### 右邊底角三分線
+select g.player_id, g.player_name,g.fg_per,g.fga, s.right3_fg_per, s.right3_fga, round(s.right3_fga/g.fga,2) 'fga_per' 
+from nba_general g, nba_shooting s
+where g.player_id = s.player_id
+and g.gp > 50
+and s.right3_fg_per > 0.35
+and s.right3_fga > 1
+order by fga_per desc, s.right3_fg_per desc;
+
+
+

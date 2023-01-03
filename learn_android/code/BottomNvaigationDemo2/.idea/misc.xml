@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/terry/Desktop/demo/BottomNvaigationDemo2/app/src/main/res/drawable/ic_baseline_looks_3_24.xml" value="0.125" />
+        <entry key="..\:/Users/terry/Desktop/demo/BottomNvaigationDemo2/app/src/main/res/drawable/ic_baseline_looks_one_24.xml" value="0.125" />
+        <entry key="..\:/Users/terry/Desktop/demo/BottomNvaigationDemo2/app/src/main/res/drawable/ic_baseline_looks_two_24.xml" value="0.125" />
+        <entry key="..\:/Users/terry/Desktop/demo/BottomNvaigationDemo2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/terry/Desktop/demo/BottomNvaigationDemo2/app/src/main/res/layout/first_fragment.xml" value="0.1046875" />
+        <entry key="..\:/Users/terry/Desktop/demo/BottomNvaigationDemo2/app/src/main/res/layout/second_fragment.xml" value="0.225" />
+        <entry key="..\:/Users/terry/Desktop/demo/BottomNvaigationDemo2/app/src/main/res/layout/third_fragment.xml" value="0.225" />
+        <entry key="..\:/Users/terry/Desktop/demo/BottomNvaigationDemo2/app/src/main/res/menu/menu.xml" value="0.4" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

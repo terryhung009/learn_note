@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CounterDemo</string>
+    <string name="button1">+1</string>
+    <string name="button2">+2</string>
+    <string name="button3">+3</string>
+    <string name="undo">undo</string>
+    <string name="restButton">restButton</string>
+    <string name="resetButton">resetButton</string>
+</resources>

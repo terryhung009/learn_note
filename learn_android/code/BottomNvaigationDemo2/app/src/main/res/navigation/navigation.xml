@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navigation"
+    app:startDestination="@id/firstFragment">
+
+    <fragment
+        android:id="@+id/firstFragment"
+        android:name="com.hkc.bottomnvaigationdemo2.FirstFragment"
+        android:label="旋轉"
+        tools:layout="@layout/first_fragment" />
+    <fragment
+        android:id="@+id/secondFragment"
+        android:name="com.hkc.bottomnvaigationdemo2.SecondFragment"
+        android:label="縮放"
+        tools:layout="@layout/second_fragment" />
+    <fragment
+        android:id="@+id/thridFragment"
+        android:name="com.hkc.bottomnvaigationdemo2.ThirdFragment"
+        android:label="移動"
+        tools:layout="@layout/third_fragment" />
+</navigation>
