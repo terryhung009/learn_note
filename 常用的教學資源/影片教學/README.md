@@ -128,9 +128,14 @@
 + [coursera](https://www.coursera.org/)
 + [codecademy](https://www.codecademy.com/)
 + [Happy Coding 快樂學程式](https://www.udemy.com/user/happycoding2/)
++  https://www.udemy.com/course/wilson-full-stack-web-development/
 
 # 不要錢的教學網站
 + [freecodecamp](https://www.freecodecamp.org/)
+
+# 學習經驗分享
++ https://www.youtube.com/watch?v=ZiEc7jYdU4Y&ab_channel=BigBoyCanCode
+
  
 
 
