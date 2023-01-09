@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+<!--    MD5工具類-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/blueimp-md5/2.19.0/js/md5.min.js" integrity="sha512-8pbzenDolL1l5OPSsoURCx9TEdMFTaeFipASVrMYKhuYtly+k3tcsQYliOEKTmuB1t7yuzAiVo+yd7SJz+ijFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</head>
+<body>
+<!--表單提交綁定事件-->
+<!--onsubmit = 綁定一個提交檢測的函數, true , false-->
+<!--將這個結果返回給表單，使用onsubmit接收-->
+<!--onsubmit="return aaa()"-->
+<form action="#" method="post" onsubmit="return aaa()">
+    <p>
+        <span>用戶名：</span><input type="text" id="username" name="username">
+    </p>
+    <p>
+        <span>密碼：</span><input type="password" id="input-password" >
+    </p>
+    <input type="hidden" id="md5-password" name="password">
+<!--    提交按鈕-->
+<!--    <input type="submit">-->
+
+<!--    綁定事件 onclick被點擊-->
+<!--    <button type="submit" onclick="aaa()">提交</button>-->
+    <button type="submit" >提交</button>
+
+
+
+</form>
+<script>
+    // function aaa(){
+    //     // alert(1)
+    //     var username = document.getElementById('username');
+    //     var password = document.getElementById('password');
+    //     console.log(username.value);
+    //     console.log(password.value);
+    //     //MD5算法
+    //     password.value = md5(password.value);
+    //     console.log(password.value);
+    // }
+    function aaa(){
+        var username = document.getElementById('username');
+        var password = document.getElementById('input-password');
+        var md5pwd = document.getElementById('md5-password');
+        // console.log(username.value);
+        // console.log(password.value);
+        // password.value = md5(password.value);//會被用戶看見，影響體驗
+        //MD5算法
+        md5pwd.value = md5(password.value);
+
+        // console.log(md5pwd.value);
+        //可以校驗判斷表單內容，true就是通過提交，false就是阻止提交
+
+        return true;
+
+    }
+
+</script>
+</body>
+</html>
