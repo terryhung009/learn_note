@@ -8,17 +8,29 @@
 
 </head>
 <body>
-<a href="" id="test-jquery">點我</a>
 
-<!--公式 : $(selector).action()
--->
+
+<!--  公式 : $(selector).action()  -->
 <script>
-    // var id = document.getElementById('id');
+    //原生js，選擇器少，麻煩不好記
+    //標籤
+    document.getElementsByTagName()
+    //id
+    document.getElementsById()
+    //類
+    document.getElementsByClassName()
 
-    //選擇器就是css的選擇器
-    $('#test-jquery').click(function () {
-        alert('hello,jQuery');
-    })
+    //jQuery
+    //css中的選擇器他全部都能用
+    //標籤選擇器
+    $('p').click()
+    //id選擇器
+    $('#id').click()
+    //類選擇器
+    $('.class').click()
+    $('.class').mouse
+
+
 </script>
 
 </body>

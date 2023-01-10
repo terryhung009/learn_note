@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--  在線引入-->
+    <!--    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>-->
+    <!-- 本機引入 -->
+    <script src="../../jquery-3.6.3.js"></script>
+</head>
+<body>
+
+<ul id="test-ul">
+    <li id="js">Javascript</li>
+    <li name="python">Python</li>
+    <li id="java">Java</li>
+
+
+</ul>
+
+<script>
+    $('#test-ul li[name=python]').text();//獲得值
+    $('#test-ul li[name=python]').text('設置值');//設置值
+    $('#test-ul').html();//獲得值
+    $('#test-ul').html('設置值');//設置值
+
+
+</script>
+
+</body>
+</html>

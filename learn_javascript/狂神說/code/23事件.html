@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--  在線引入-->
+    <script src="https://code.jquery.com/jquery-3.6.3.js"></script>
+    <style>
+        #divMove {
+            width: 500px;
+            height: 500px;
+            border: 1px solid red;
+        }
+    </style>
+
+</head>
+<body>
+
+
+<!--  要求，獲取鼠標當前的一個座標  -->
+mouse: <span id="mouseMove"></span>
+<div id="divMove">在這裡移動鼠標試試
+
+</div>
+
+
+<script>
+    //當網頁元素加載完畢之後，響應事件
+    // $(document).ready(function (){
+    //
+    // })
+    //可省略為
+    // $(function (){
+    //
+    // });
+
+    $(function () {
+        $('#divMove').mousemove(function (e) {
+            $('#mouseMove').text('x: ' + e.pageX+'y: ' + e.pageY)
+        })
+    });
+
+
+</script>
+
+</body>
+</html>
