@@ -5,8 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3e05941-34b0-449d-b07c-9e0ee1878e8b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../learn_vue/狂神說/筆記/img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_vue/狂神說/筆記/img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_vue/狂神說/筆記/img_5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_vue/狂神說/筆記/img_6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_vue/狂神說/筆記/img_7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../learn_vue/狂神說/筆記/img_8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/正能量.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../learn_vue/狂神說/筆記/筆記.md" beforeDir="false" afterPath="$PROJECT_DIR$/../learn_vue/狂神說/筆記/筆記.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/影片教學/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/影片教學/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +40,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/workSpace/learn_note/常用的教學資源",
+    "last_opened_file_path": "D:/work/learn_spring",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -56,6 +63,7 @@
       <workItem from="1672507463051" duration="644000" />
       <workItem from="1672508188618" duration="5075000" />
       <workItem from="1672513309779" duration="649000" />
+      <workItem from="1673396643251" duration="1534000" />
     </task>
     <servers />
   </component>
